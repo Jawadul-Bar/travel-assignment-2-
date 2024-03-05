@@ -119,6 +119,99 @@
     margin-top: 32px;
 }
 
+.destination{
+    margin: var(--margin-primary);
+    text-align: center;
+}
+
+.image1{
+    display: flex;
+    gap: 24px;
+}
+
+.mal{
+    background-image: url(Images/Maldives.png);
+    background-repeat: no-repeat;
+    padding: 133px 227px;
+    color: white;
+    width: 580px;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.ind{
+    background-image: url(Images/indonesia.png);
+    background-repeat: no-repeat;
+    padding: 133px 227px;
+    color: white;
+    width: 580px;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.image2{
+    display: flex;
+    gap: 24px;
+    margin-top: -20px;
+}
+
+.sri{
+    background-image: url(Images/srilanka.png);
+    background-repeat: no-repeat;
+    padding: 125px 130px;
+    color: white;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.north{
+    background-image: url(Images/north-america.png);
+    background-repeat: no-repeat;
+    padding: 125px 131px;
+    color: white;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.kash{
+    background-image: url(Images/kashmir.png);
+    background-repeat: no-repeat;
+    padding: 125px 93px;
+    color: white;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.image3{
+    display: flex;
+    gap: 24px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.bang {
+    background-image: url(Images/Bangladesh.png);
+    background-repeat: no-repeat;
+    padding: 133px;
+    padding-right: 280px;
+    padding-left: 150px;
+    color: white;
+    width: 48px;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.ban {
+    background-image: url(Images/bandarban.png);
+    background-repeat: no-repeat;
+    padding: 133px 250px;
+    color: white;
+    width: 673px;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+
 /* Mobile Device */
 
 @media screen and (max-width: 600px){
@@ -188,5 +281,60 @@
     .popular-tours .button{
         width: 174px;
         height: 52px;
+    }
+
+    .destination{
+        margin: 20px 18px;
+    }
+
+    .image1, .image2, .image3{
+        flex-wrap: wrap;
+    }
+
+    .mal{
+        padding: 75px 110px;
+        font-size: 20px;
+    }
+
+    .ind{
+        padding: 75px 100px;
+        margin-top: -28px;
+        font-size: 20px;
+    }
+
+    .sri{
+        padding: 75px 140px;
+        font-size: 20px;
+        margin-top: 16px;
+    }
+
+    .north{
+        padding: 75px 110px;
+        font-size: 20px;
+        margin-top: -28px;
+    }
+
+    .kash{
+        padding-top: 75px;
+        padding-bottom: 75px;
+        padding-left: 141px;
+        padding-right: 141px;
+        font-size: 20px;
+        margin-top: -28px;
+        background-position: center;
+    }
+
+    .bang{
+        padding: 75px 118px;
+        margin-top: 16px;
+        font-size: 20px;
+        width: 125px;
+    }
+
+    .ban{
+        padding: 75px 118px;
+        margin-top: -28px;
+        font-size: 20px;
+        width: 125px;
     }
 }

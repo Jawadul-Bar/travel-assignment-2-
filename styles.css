@@ -97,6 +97,27 @@
     font-weight: 700;
 }
 
+.popular-tours {
+    display: flex;
+    margin: var(--margin-primary);
+    gap: 50px;
+}
+
+.popular-tours img{
+    width: 504px;
+}
+
+.popular-tours h1{
+    font-size: 40px;
+}
+
+.popular-tours p, .popular-tours li{
+    color: var(--text-color);
+}
+
+.popular-tours button {
+    margin-top: 32px;
+}
 
 /* Mobile Device */
 
@@ -153,5 +174,19 @@
     }
     #where{
         width: 255px;
+    }
+
+    .popular-tours{
+        flex-wrap: wrap;
+        margin: 20px 18px;
+    }
+
+    .popular-tours img{
+        width: 335px;
+    }
+
+    .popular-tours .button{
+        width: 174px;
+        height: 52px;
     }
 }

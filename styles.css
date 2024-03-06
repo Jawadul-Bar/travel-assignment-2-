@@ -374,6 +374,86 @@ p{
     text-align: justify;
 }
 
+.connect {
+    margin: var(--margin-primary);
+    display: flex;
+    gap: 25px;
+}
+
+.news{
+    width: 474px;
+    height: 340px;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-bottom: 50px;
+}
+
+.news>p {
+    padding-right: 85px;
+}
+
+.news hr {
+    width: 480px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.news input{
+    width: 393px;
+    height: 52px;
+    margin-top: 20px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news .button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 422px;
+    height: 52px;
+    padding-left: 148px;
+    padding-right: 148px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.save-con {
+    text-align: center;
+    transform: rotate(-19.628deg) translate(-100px);
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 20px;
+    color: #FFF;
+    width: 350px;
+    position: relative;
+    left: 372px;
+    bottom: 205px;
+}
+
+.save-con h4 {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.save-con p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.save img{
+    width: 672px;
+    height: 422px;
+}
 
 /* Mobile Device */
 
@@ -618,6 +698,67 @@ p{
     .deals .button{
         width: 174px;
         height: 52px;
+    }
+
+    .connect {
+        margin: 20px 18px;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    #see-all {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .news{
+        margin-top: 20px;
+        width: 300px;
+        padding: 16px;
+        padding-bottom: 50px;
+    }
+
+    .news>p {
+        padding-right: 43px;
+    }
+
+    .news hr {
+        width: 288px;
+    }
+    
+    .news input{
+        width: 270px;
+    }
+    
+    .news .button {
+        width: 300px;
+        padding-left: 110px;
+        padding-right: 120px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .save-con {
+        padding: 15px;
+        width: 230px;
+        left: 162px;
+        bottom: 156px;
+    }
+    
+    .save-con h4 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+    
+    .save-con p{
+        font-size: 16px;
+    }
+    
+    .save img{
+        width: 330px;
+        height: 300px;
     }
     
 }

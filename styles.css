@@ -304,6 +304,77 @@ p{
     margin-left: 250px;
 }
 
+.deals{
+    margin: var(--margin-primary);
+    text-align: center;
+}
+
+.deals h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.deals>p{
+    margin-bottom: 50px;
+}
+
+.pricing{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.cox{
+    background-image: url(Images/deal&discount1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 50px 55px 510px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+}
+
+.malaysia{
+    background-image: url(Images/deal&discount2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 530px 55px 50px;  
+    margin-bottom: 25px;
+    border-radius: 16px;
+}
+
+.maldives{
+    background-image: url(Images/deal&discount1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 50px 55px 510px;  
+    margin-bottom: 40px;
+    border-radius: 16px;
+}
+
+.first{
+    display: flex;
+    padding-right: 140px;
+    gap: 25px;
+    align-items: center;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.discounts{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px ;
+    width: 579px;
+    text-align: justify;
+}
+
+
 /* Mobile Device */
 
 @media screen and (max-width: 600px){
@@ -512,6 +583,41 @@ p{
     .guarantee{
         margin-left: 0px;
         width: 210px;
+    }
+
+    .deals{
+        margin: 20px 18px;
+    }
+    
+    .deals>p{
+        margin-bottom: 10px;
+    }
+    
+    .cox, .malaysia, .maldives{
+        background-size: cover;
+        padding: 187px 16px 16px 16px;
+        margin-bottom: 15px;
+        background-position: center;
+    }
+
+    .first{
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-right: 50px;
+    }
+
+    .time{
+        justify-content: center;
+    }
+    
+    .discounts{
+        padding: 25px;
+        width: 255px;
+    }
+
+    .deals .button{
+        width: 174px;
+        height: 52px;
     }
     
 }

@@ -10,6 +10,10 @@
     --margin-primary: 100px 135px;
 }
 
+p{
+    color: var(--text-color);
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -34,6 +38,10 @@
     gap: 40px;
     font-weight: 400;
     color: var(--text-color);
+}
+
+.options ul>img{
+    display: none;
 }
 
 .options .hub{
@@ -67,6 +75,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    color: white;
 }
 
 .reg form {
@@ -250,10 +259,66 @@
     text-align: justify;
 }
 
+.why-us {
+    margin: var(--margin-primary);
+    text-align: center;
+}
+
+.facility {
+    justify-content: center;
+    gap: 25px;
+    padding: 30px 50px;
+    text-align: left;
+}
+
+.container2{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.hotels, .service, .guarantee{
+    width: 573px;
+    height: 284px;
+}
+
+.hotels{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.service{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+.guarantee{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    margin-left: 250px;
+}
 
 /* Mobile Device */
 
 @media screen and (max-width: 600px){
+    h1{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
     .nav{
         display: flex;
         flex-wrap: wrap;
@@ -272,6 +337,14 @@
 
     .logo img{
         width: 30px;
+    }
+
+    .options ul li{
+        display: none;
+    }
+    
+    .options ul>img{
+        display: block;
     }
 
     .reg {
@@ -320,6 +393,15 @@
     .popular-tours .button{
         width: 174px;
         height: 52px;
+    }
+
+    .content>h1{
+        font-size: 20px;
+    }
+
+    .content>p, .content li{
+        font-size: 14px;
+        text-align: justify;
     }
 
     .destination{
@@ -401,6 +483,35 @@
     .image img{
         width: 200px;
         height: 150px;
+    }
+
+    .why-us {
+        margin: 35px 18px;
+    }
+
+    #why-con{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    
+    .facility {
+        padding: 32px 32px;
+        text-align: justify;
+        margin-top: -16px;
+    }
+    
+    .container2{
+        flex-wrap: wrap;
+    }
+    
+    .hotels, .service, .guarantee{
+        width: 335px;
+        height: 380px;
+    }
+    
+    .guarantee{
+        margin-left: 0px;
+        width: 210px;
     }
     
 }

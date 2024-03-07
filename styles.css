@@ -389,10 +389,6 @@ p{
     padding-bottom: 50px;
 }
 
-.news>p {
-    padding-right: 85px;
-}
-
 .news hr {
     width: 480px;
     height: 1px;
@@ -400,7 +396,7 @@ p{
 }
 
 .news input{
-    width: 393px;
+    width: 450px;
     height: 52px;
     margin-top: 20px;
     padding: 5px 15px;
@@ -415,7 +411,7 @@ p{
 .news .button {
     margin-top: 20px;
     margin-bottom: 40px;
-    width: 422px;
+    width: 482px;
     height: 52px;
     padding-left: 148px;
     padding-right: 148px;
@@ -453,6 +449,39 @@ p{
 .save img{
     width: 672px;
     height: 422px;
+}
+
+.foot{
+    margin-top: -100px;
+    padding: 50px 330px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.com-name{
+    text-align: center;
+}
+
+.company{
+    justify-content: center;
+}
+
+.com-name .logo{
+    width: 40px;
+    height: 47px;
+    margin-right: 15px;
+}
+
+.com-name .name{
+    font-size: 25px;
+}
+
+.com-name p{
+    margin-bottom: 30px;
+}
+
+.com-name hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* Mobile Device */
@@ -704,6 +733,7 @@ p{
         margin: 20px 18px;
         flex-wrap: wrap;
         gap: 15px;
+        margin-bottom: 60px;
     }
 
     #see-all {
@@ -760,5 +790,13 @@ p{
         width: 330px;
         height: 300px;
     }
+
+    .foot{
+        padding: 30px;
+    }
     
+    .foot .name{
+        margin-top: -22px;
+        margin-left: -25px;
+    }
 }
